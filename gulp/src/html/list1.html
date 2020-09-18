@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>列表页</title>
+    <link rel="stylesheet" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../jquery-pagination/pagination.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/list.css">
+</head>
+
+<body>
+    <!-- 头部 -->
+    <div id="header">
+        <div class="header common">
+            <!-- 导航条 -->
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav ul1">
+                            <li><a href="" class="aColor indexH">首页</a></li>
+                            <li><a href="#" class="aColor aContent">列表页</a></li>
+                            <li><a href="#" class="aColor">设计师<span class="sr-only ">(current)</span></a></li>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right ul2">
+                            <li><button class="btn" id="login">登录</button></li>
+                            <li><button class="btn" id="register">注册</button></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+        </div>
+    </div>
+    <!-- nav -->
+
+    <div id="isNav">
+        <div class="isNav common">
+            <div class="navChild1 navChildren">
+                <span>分类:</span>
+                <a href="" class="ListL">全部</a>
+                <a href="" class="ListL ">LOGO/品牌</a>
+                <a href="" class="ListL">平面设计</a>
+                <a href="" class="ListL">UI设计</a>
+                <a href="" class="ListL">绘画/插画</a>
+                <a href="" class="ListL">工业产品设计</a>
+                <a href="" class="ListL">影视动画</a>
+                <a href="" class="ListL">摄影</a>
+                <a href="" class="ListL">服装设计</a>
+                <a href="" class="ListL">室内设计</a>
+                <a href="" class="ListL">造型设计</a>
+                <a href="" class="ListL">私家定制</a>
+                <a href="" class="ListL">其他</a>
+            </div>
+            <div class="navChildren cursorW">
+                <div class="navChild2 cursorW">
+                    <span>子类:</span>
+                    <a href="#" class="cursorW">LOGO设计</a>
+                    <a href="#" class="cursorW">VI系统设计</a>
+                    <a href="#" class="cursorW">名片设计</a>
+                    <a href="#" class="cursorW">展位设计</a>
+                    <a href="#" class="cursorW">企业礼品定制</a>
+                    <a href="#" class="cursorW">其他LOGO/品牌设计</a>
+                </div>
+            </div>
+
+            <div class="navBottom" >
+                <div name="" id="sortF1">
+                    <label for="">推荐排序</label>
+                    <i class="glyphicon glyphicon-chevron-down"></i>
+                    <div class="ej1">
+                        <a href="">推荐排序</a>
+                        <a href="">创建时间</a>
+                        <a href="">好评</a>
+                    </div>
+                    <!-- <li value="1" >推荐排序</li>
+                    <li value="2" >价格</li>
+                    <li value="3" >好评</li> -->
+                </div>
+                <div name="" id="sortF2">
+                    <label for="">不限项目周期</label><i class="glyphicon glyphicon-chevron-down"></i>
+                    <div class="ej2">
+                        <a href="" >不限项目周期</a>
+                        <a href="">一天内</a>
+                        <a href="">一周内</a>
+                        <a href="">一个月</a>
+                        <a href="">两个月</a>
+                        <a href="">三个月</a>
+                        <a href="">三个月以上</a>
+                    </div>
+                    <!-- <li value="1" >不限项目周期</li>
+                    <li value="2" >一天内</li>
+                    <li value="3" >一周内</li>
+                    <li value="4" >一个月</li>
+                    <li value="5" >两个月</li>
+                    <li value="6" >三个月</li>
+                    <li value="7" >三个月以上</li> -->
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div id="listMain">
+        <div class="listMain common">
+            <!-- 栅栏布局 -->
+            <div class="container">
+                <ul class="ul">
+                    <!-- <li class="list-item" class=".col-xs-3">
+                        <div class="row">
+                            <div>
+                                <div class="thumbnail">
+                                    <img src="https://muse-img.huabanimg.com/f4669b66f3f61e41c3ca7539e554e6764d29294514c90-.70a8oozkhkx_/both/280x280"
+                                        alt="...">
+                                    <div class="caption">
+                                        <h3>设计设计</h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li> -->
+                    
+                </ul>
+
+            </div>
+        </div>
+        <div style="text-align:center">
+            <div class="pager"></div>
+        </div>
+    </div>
+
+
+    <div id="links">
+        <div class="links common">
+            
+            <h3>花瓣美思，花瓣网旗下网站</h3>
+            <div class="linksD">
+                <ul class="linksUl">
+                    <span>花瓣美思</span>
+                    <li><a href="https://muse.huaban.com/about">关于美思</a></li>
+                    <li><a href="https://muse.huaban.com/about/help/buy">雇主问题</a></li>
+                    <li><a href="https://muse.huaban.com/about/help/sell">设计师问题</a></li>
+                    <li><a href="https://muse.huaban.com/about/help">使用帮助</a></li>
+
+                </ul>
+                <ul class="linksUl">
+                    <span>平台战略合作伙伴</span>
+                   
+                    <li> <a href="https://blog.huaban.com/?p=16794">中华世纪坛创意新媒体联盟</a></li>
+                    <li> <a href="https://www.vcg.com/">视觉中国</a></li>
+                    <li> <a href="https://zhan.qq.com/">腾讯风铃</a></li>
+                    <li> <a href="https://ixdc.org/">ixdc</a></li>
+                    <li> <a href="http://www.redstaraward.org/">红星奖</a></li>
+                </ul>
+                <ul class="linksUl">
+                    <span>联系与合作</span>
+                    <li> <a href="https://muse.huaban.com/about/contact/">联系我们</a></li>
+                    <li> <a href="">联系客服</a></li>
+                    <li> <a href="https://weibo.com/login.php">微博@花瓣网</a></li>
+                    <li> <a href="" class="weChat">微信<img src="../image/qrcode.png" alt="" class="qrCode"></a></li>
+                </ul>
+                <ul class="linksUl">
+                    <span>移动客户端</span>
+                    <li> <a href="https://apps.apple.com/us/app/mei-si-zhao-dao-geng-zhuan/id1077258053?ls=1">ios</a></li>
+                    <li> <a href="https://muse-file.b0.upaiyun.com/android/muse_v2.0.2_2018_07_17.apk">Android</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="copy">
+        <div class="copy common">
+            Cipyrightc Huaban.com 2016|浙B2-20110282浙ICP备05049240
+        </div>
+    </div>
+    <script src="../js/utils.js"></script>
+    <script src="../jquery/jquery.min.js"></script>
+    <script src="../jquery-pagination/jquery.pagination.js"></script>
+    <script src="../js/list.js"></script>
+
+</body>
+
+</html>

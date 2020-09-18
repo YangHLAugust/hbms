@@ -1,0 +1,383 @@
+/* 列表页的样式都是一样的 */
+/* 头部 */
+
+#header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    height: 55px;
+    background-color: #fff;
+    color: #222;
+    z-index: 10;
+
+}
+
+.header {
+    height: 55px;
+
+}
+
+.cursorW {
+    cursor: wait;
+}
+
+.appear {
+    display: block !important;
+}
+
+.navbar.navbar-default {
+    background: url('https://muse.huaban.com/assets/c257ccb2a5a50804cc67d3cc09c3f337.svg') no-repeat left center;
+    border: none;
+    padding-top: 5px;
+    color: #000;
+}
+
+.nav.navbar-nav.ul1 {
+    margin-left: 192px;
+}
+
+.aContent {
+    border-bottom: 2px solid #c0a75e;
+    padding-bottom: 12px;
+}
+
+#login {
+    margin-top: 8px;
+    width: 63px;
+    height: 30px;
+    background-color: #ccc;
+    border: 1px solid #fff;
+    margin-right: 6px;
+}
+
+.loginBtn {
+    width: 200px !important;
+}
+
+#register {
+    margin-top: 8px;
+    width: 63px;
+    height: 30px;
+    background-color: #c0a75e;
+}
+
+.dropdown-menu {
+    color: #000;
+}
+
+
+#isNav {
+    margin-top: 55px;
+    width: 100%;
+    height: 224px;
+    background-color: #f7f7f7;
+}
+
+.isNav {
+    height: 224px;
+    padding-top: 19px;
+}
+
+.navChildren {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    font-size: 12px;
+    color: #555555;
+    align-items: center;
+}
+
+.navChildren a {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navChild1 {
+    margin-bottom: 2px;
+    justify-content: space-evenly;
+}
+
+.navChild2 {
+    width: 645px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.navChildren a:hover {
+    color: #ea5813;
+}
+
+.active {
+    color: #ea5813 !important;
+}
+
+.navBottom {
+    height: 62px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navBottom label {
+    background-color: #fafafa;
+    border: none;
+    margin: 20px 10px 0 10px;
+    outline: none;
+    transition: all 1s;
+    font-weight: normal;
+
+}
+
+.navBottom i {
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+#sortF1,
+#sortF2 {
+    position: relative;
+}
+
+.ej1,
+.ej2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 44px;
+    left: 0;
+    display: none;
+}
+
+.ej1>a,
+.ej2>a {
+    width: 132px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: rgba(0, 0, 0, .95);
+    z-index: 8;
+    /* border: 1px solid #ccc; */
+    padding: 10px 18px;
+    font-size: 16px;
+}
+
+.appear {
+    display: block;
+}
+
+.active {
+    background: rgba(0, 0, 0, .03);
+    font-weight: 900;
+}
+
+/* .navBottom ul>li {
+    border: none;
+    
+} */
+
+.navBottom .sort>p {
+    margin: 0;
+}
+
+#listMain {
+    width: 100%;
+    background-color: #f7f7f7;
+    min-height: 500px;
+}
+
+.listMain .container {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 0;
+    overflow: hidden;
+}
+
+.listMain .list-item {
+    width: 247px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .04), 0 1px 6px 0 rgba(0, 0, 0, .03);
+    margin: 13px 13px 13px 0 !important;
+    float: left;
+}
+
+.listMain .list-item .list-header {
+    margin: 15px 5px !important;
+}
+
+.listMain .list-item .caption h3 {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 900;
+    height: 30px;
+    line-height: 30px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-lin-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+
+}
+
+#listMain .ul .sort {
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: #c0a75e;
+}
+
+.listMain .caption .icon {
+    font-size: 26px;
+    color: red;
+    font-weight: 900;
+    margin: 10px 0 !important;
+}
+
+.listMain .thumbnail {
+    padding: 0;
+    margin: 0;
+    width: 245px;
+    height: 328px;
+    border: none;
+}
+
+.listMain .thumbnail img {
+    width: 245px;
+    height: 245px;
+}
+
+.listMain .row {
+    margin: 0;
+    border: none;
+}
+
+.listMain .row:hover {
+    cursor: pointer;
+    background: #FFF;
+    border: none;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .07), 0 4px 16px 0 rgba(0, 0, 0, .07);
+    -webkit-transform: translateY(-2px);
+    transform: translateY(-2px);
+}
+
+
+.pager {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    display: inline-block;
+    clear: both;
+}
+
+.pager a,
+.pager span {
+    font-size: 14px;
+    color: #428bca;
+    border-right: 1px solid #dddddd;
+    padding: 4px 9px;
+    float: left;
+    text-decoration: none;
+}
+
+.pager span {
+    color: #fff;
+    background: #428bca;
+}
+
+.pager a:hover {
+    color: #2a6496;
+    background: #f2f2f2;
+}
+
+.pager a.last {
+    border-right: 0;
+}
+
+
+#links {
+    height: 262px;
+    width: 100%;
+    background-color: #333333;
+}
+
+.links {
+    height: 262px;
+}
+
+.links>h3 {
+    color: #999999;
+    font-size: 16px;
+    font-weight: 900;
+    height: 52px;
+    line-height: 60px;
+}
+
+.links .linksD {
+    display: flex;
+    height: 210px;
+}
+
+.links .linksUl {
+    margin: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.links .linksUl li {
+    font-size: 12px;
+    color: #fff;
+    line-height: 29px;
+}
+
+.links .linksUl li>a {
+    font-size: 12px;
+    color: #fff;
+    line-height: 29px;
+}
+
+.links .linksUl li>a:hover {
+    color: #000;
+}
+
+.links .weChat {
+    position: relative;
+}
+
+.links .qrCode {
+    position: absolute;
+    top: -80px;
+    left: 29px;
+    opacity: 0;
+}
+
+.links .linksUl span {
+    line-height: 44px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.links .linksUl li:hover {
+    color: #000;
+}
+
+#copy {
+    height: 52px;
+    background-color: #222222;
+}
+
+.copy {
+    height: 52px;
+    text-align: left;
+    line-height: 52px;
+    color: #999999;
+    font-size: 12px;
+}
